@@ -11,3 +11,9 @@ orm- object relational mapping
 
 H2 database startup
 http://localhost:8080/h2-console/login.jsp?jsessionid=5da92969c736f315a87146d8eea87658
+jdbc:h2:mem:testdb
+
+github videos
+https://www.youtube.com/watch?v=w3jLJU7DT5E
+
+https://www.youtube.com/watch?v=HwrPhOp6-aM&list=PL0lo9MOBetEHhfG9vJzVCTiDYcbhAiEqL
