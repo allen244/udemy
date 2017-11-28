@@ -1,0 +1,13 @@
+Spring initializer- http://start.spring.io/
+
+Run application from command line with maven
+C:\git\repo\udemy\spring\spring5\spring5webapp>mvnw.cmd spring-boot:run
+
+Jps(Java persistence api- official api for workign with relational dbs
+-only a specification and not a concrete implementation
+-Is a bridge from java object to how data is stored in dbs
+orm- object relational mapping
+-one api will support many relational dbs
+
+H2 database startup
+http://localhost:8080/h2-console/login.jsp?jsessionid=5da92969c736f315a87146d8eea87658
