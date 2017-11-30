@@ -17,3 +17,11 @@ github videos
 https://www.youtube.com/watch?v=w3jLJU7DT5E
 
 https://www.youtube.com/watch?v=HwrPhOp6-aM&list=PL0lo9MOBetEHhfG9vJzVCTiDYcbhAiEqL
+
+Spring Data Repositories
+ • Provides an Implementation of the Repository Pattern
+ • Concept is originally from Eric Evans’ book Domain Driven Design 
+ • A Repository has methods for retrieving domain objects should delegate to a specialized Repository object such that alternative storage implementations may be interchanged.
+ • This is important. It allows you to easily substitute the persistence layer. • i.e. going from SQL to NoSQ
+ 
+ Dependency injection-

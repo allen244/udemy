@@ -57,4 +57,5 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
         initData();
 
     }
+
 }
