@@ -25,3 +25,5 @@ Spring Data Repositories
  • This is important. It allows you to easily substitute the persistence layer. • i.e. going from SQL to NoSQ
  
  Dependency injection-
+ 
+ ApplicationContext- Does all the work loads all the dependencies and beans
