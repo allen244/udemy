@@ -1,0 +1,5 @@
+Intelj
+control b= go to method 
+alt enter -import
+contr alt enter= format
+ALT INTER- NEW CONSTRUCTOR ETC

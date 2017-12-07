@@ -27,3 +27,26 @@ Spring Data Repositories
  Dependency injection-
  
  ApplicationContext- Does all the work loads all the dependencies and beans
+ 
+ Dependency injection-
+ Constructor based- which is preferred
+ -property based-
+ -getter setter based-
+All must get annotations @controller and @autowired or it can results in nullpointers
+
+Qaulifiers- if there are multiple implementations of the interface you would use qualifiers to tell spring which bean you want
+@Qualifier("constructorGreetingService")- the string is the bean name
+
+PrimaryBeans- multiple beans of the same type and you want to use one by default
+
+Spring profiles-Configures spring at runtime on how it wires up things
+-exmaple  profile with differnt data sources
+use @Profile("es")
+set up application.props
+spring.profiles.active=en
+
+default profile
+if noting is specified in application.props then you can set it a default so nothing fails
+@Profile({"en","default"})
+
+Spring bean lifecycle
