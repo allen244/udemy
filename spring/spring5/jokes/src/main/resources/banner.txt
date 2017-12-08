@@ -1,0 +1,62 @@
+Skip to content
+Help save net neutrality! A free, open internet is once again at stake—and we need your help.
+Learn more  Dismiss
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @allen244
+ Sign out
+ Watch 1
+  Star 1  Fork 12 springframeworkguru/spring5-jokes-app
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+Branch: custom-banner Find file Copy pathspring5-jokes-app/src/main/resources/banner.txt
+1b1d866  on May 25
+@springframeworkguru springframeworkguru adding custom banner
+1 contributor
+RawBlameHistory
+30 lines (27 sloc)  1.54 KB
+  /$$$$$$                      /$$
+ /$$__  $$                    |__/
+| $$  \__/  /$$$$$$   /$$$$$$  /$$ /$$$$$$$   /$$$$$$
+|  $$$$$$  /$$__  $$ /$$__  $$| $$| $$__  $$ /$$__  $$
+ \____  $$| $$  \ $$| $$  \__/| $$| $$  \ $$| $$  \ $$
+ /$$  \ $$| $$  | $$| $$      | $$| $$  | $$| $$  | $$
+|  $$$$$$/| $$$$$$$/| $$      | $$| $$  | $$|  $$$$$$$
+ \______/ | $$____/ |__/      |__/|__/  |__/ \____  $$
+          | $$                               /$$  \ $$
+          | $$                              |  $$$$$$/
+          |__/                               \______/
+ /$$$$$$$$                                                                           /$$
+| $$_____/                                                                          | $$
+| $$     /$$$$$$  /$$$$$$  /$$$$$$/$$$$   /$$$$$$  /$$  /$$  /$$  /$$$$$$   /$$$$$$ | $$   /$$
+| $$$$$ /$$__  $$|____  $$| $$_  $$_  $$ /$$__  $$| $$ | $$ | $$ /$$__  $$ /$$__  $$| $$  /$$/
+| $$__/| $$  \__/ /$$$$$$$| $$ \ $$ \ $$| $$$$$$$$| $$ | $$ | $$| $$  \ $$| $$  \__/| $$$$$$/
+| $$   | $$      /$$__  $$| $$ | $$ | $$| $$_____/| $$ | $$ | $$| $$  | $$| $$      | $$_  $$
+| $$   | $$     |  $$$$$$$| $$ | $$ | $$|  $$$$$$$|  $$$$$/$$$$/|  $$$$$$/| $$      | $$ \  $$
+|__/   |__/      \_______/|__/ |__/ |__/ \_______/ \_____/\___/  \______/ |__/      |__/  \__/
+
+
+
+  /$$$$$$
+ /$$__  $$
+| $$  \__/ /$$   /$$  /$$$$$$  /$$   /$$
+| $$ /$$$$| $$  | $$ /$$__  $$| $$  | $$
+| $$|_  $$| $$  | $$| $$  \__/| $$  | $$
+| $$  \ $$| $$  | $$| $$      | $$  | $$
+|  $$$$$$/|  $$$$$$/| $$      |  $$$$$$/
+ \______/  \______/ |__/       \______/
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
