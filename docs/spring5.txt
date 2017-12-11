@@ -56,3 +56,5 @@ Xml configuration- older projects, @ImportResource("classpath:chucknorrisconfig.
 -Java configuration- used in new projects
 Annontations configuration-
 component - @ComponentScan(basePackages = {"com.avs.didemo.services"})  === scans all packages and below done in spring main class
+
+Usefactory beans to make db connections
