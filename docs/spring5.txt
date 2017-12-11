@@ -50,3 +50,9 @@ if noting is specified in application.props then you can set it a default so not
 @Profile({"en","default"})
 
 Spring bean lifecycle
+
+Spring Configuration options
+Xml configuration- older projects, @ImportResource("classpath:chucknorrisconfig.xml")
+-Java configuration- used in new projects
+Annontations configuration-
+component - @ComponentScan(basePackages = {"com.avs.didemo.services"})  === scans all packages and below done in spring main class
