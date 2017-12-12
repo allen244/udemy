@@ -1,0 +1,36 @@
+#this is a comment
+
+name: Al
+
+names: #Comment list
+   -Al
+   -s
+   -hello
+
+pound_sign: "#"
+
+book:
+    author: joe
+    publisher: random house
+
+truh: yes
+
+another_truth: True
+
+more_true: true
+
+false: no
+
+string_val:  "This is its quote"
+
+coloin_string: "my coourse: one two three"
+
+include_new_lines: |
+  addvedf
+  gergrere
+  gereeee
+
+ignore_new_lines: >
+  this
+  iss
+  yoo

@@ -1,0 +1,12 @@
+avs:
+  jms:
+    username: Al
+    password: welcome
+    url: someurl
+
+---
+spring:
+  profiles: de
+avs:
+  jms:
+    username: Al yaml german

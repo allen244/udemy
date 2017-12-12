@@ -58,3 +58,9 @@ Annontations configuration-
 component - @ComponentScan(basePackages = {"com.avs.didemo.services"})  === scans all packages and below done in spring main class
 
 Usefactory beans to make db connections
+
+Spring environment properties- can you to get env variables across platforms. Dev qa prod
+
+https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html
+
+Spring boot profile properties
