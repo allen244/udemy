@@ -64,3 +64,19 @@ Spring environment properties- can you to get env variables across platforms. De
 https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html
 
 Spring boot profile properties
+
+JPA Entity relationships-
+
+ONE to ONE- One entity is related to the other @OneToOne
+
+ONE TO Many- one entity is realted to many entities(List,Set,Map,SortedSet, SorteMap)- @OneToMany
+
+MAny to one- @ManyToOne- inverse relations of one to Many-
+
+Many to Many @ManyToMany- Many entities are related to many entities
+Eash has a list or set ference to the other
+A join table is used to define the relation ship
+
+https://help.github.com/articles/fork-a-repo/
+
+https://help.github.com/articles/syncing-a-fork/
