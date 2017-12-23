@@ -1,7 +1,10 @@
 package com.avs.recipe.domain;
 
+import lombok.*;
+
 import javax.persistence.*;
 
+@Data
 @Entity
 public class UnitOfMeasure {
 
@@ -9,23 +12,6 @@ public class UnitOfMeasure {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long uomId;
     private String description;
-
-
-    public Long getUomId() {
-        return uomId;
-    }
-
-    public void setUomId(Long uomId) {
-        this.uomId = uomId;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
 
 
 }
