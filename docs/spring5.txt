@@ -82,3 +82,8 @@ https://help.github.com/articles/fork-a-repo/
 https://help.github.com/articles/syncing-a-fork/
 
 https://circleci.com/?utm_source=gb&utm_medium=SEM&utm_campaign=SEM-gb-300-Eng-ni&utm_content=SEM-gb-300-Eng-ni-Circle-CI-PricingLP&gclid=CjwKCAiAmvjRBRBlEiwAWFc1mNPP3KG3YjFkF0E9ExMqSGIyBWqiwqRPDWh8a5zp7XXht9bqBRHO2xoC_uoQAvD_BwE
+
+https://www.webjars.org/
+
+docker run mongo db an expose port command
+docker run -p27017:27017 -d mongo
