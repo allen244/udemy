@@ -85,5 +85,33 @@ https://circleci.com/?utm_source=gb&utm_medium=SEM&utm_campaign=SEM-gb-300-Eng-n
 
 https://www.webjars.org/
 
+
+have to use the ip given on your machine 192.168.99.100
 docker run mongo db an expose port command
-docker run -p27017:27017 -d mongo
+docker run -p 27017:27017 -d mongo
+
+$ docker run -p 27017:27017 -v /c/mongodb/dockerdata/:/data/db -d mongo
+
+
+https://hub.docker.com/_/rabbitmq/
+mrabit run and install
+$ docker run -d --hostname my-rabbit --name some-rabbit -p 8080:15672 -p 5671:5671 -p 5672:5672  rabbitmq:3-management
+
+myswl
+ docker run --name  avs-mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -v /c/dockerdata/mysql/:var/lib/mysql -p 3306:3306 -d
+mysql
+
+centos
+docker run -d centos tail -f /dev/null
+
+build docker file docker build -t spring-boot-docker .
+
+open shell command- $ docker exec -it e0332d66a5ae bash
+in bash install java coommand -yum install java
+
+docker run -d -p 8080:8080 spring-boot-docker
+
+running centos need to use the ip of docker http://192.168.99.100:8080/
+
+docker run -d -p 8080:8080 spring-boot-docker
+

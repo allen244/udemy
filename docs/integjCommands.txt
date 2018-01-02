@@ -6,3 +6,9 @@ ALT INTER- NEW CONSTRUCTOR ETC
 comment =cntrl /
 alt enter- create test
 
+
+getting files
+Class: Ctrl+N
+File (directory): Ctrl+Shift+N
+Symbol: Ctrl+Shift+Alt+N
+
