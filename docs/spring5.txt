@@ -101,6 +101,8 @@ myswl
  docker run --name  avs-mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -v /c/dockerdata/mysql/:var/lib/mysql -p 3306:3306 -d
 mysql
 
+docker run --name mysqldb -p 3306:3306 -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -d mysql
+
 centos
 docker run -d centos tail -f /dev/null
 
@@ -114,4 +116,7 @@ docker run -d -p 8080:8080 spring-boot-docker
 running centos need to use the ip of docker http://192.168.99.100:8080/
 
 docker run -d -p 8080:8080 spring-boot-docker
+
+DEV TOOLS INTELLIJ PROPERTY
+under setting compiler setting need to check build project automatically
 
