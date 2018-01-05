@@ -12,3 +12,9 @@ Class: Ctrl+N
 File (directory): Ctrl+Shift+N
 Symbol: Ctrl+Shift+Alt+N
 
+DEV TOOLS INTELLIJ PROPERTY
+contrl shirt A
+regsitry and select
+check compiler.automade.allow.when.app.running
+under setting compiler setting need to check build project automatically
+
