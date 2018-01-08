@@ -120,3 +120,68 @@ docker run -d -p 8080:8080 spring-boot-docker
 DEV TOOLS INTELLIJ PROPERTY
 under setting compiler setting need to check build project automatically
 
+Ways to set properties
+PropertySourcesPlaceholderConfigurer, ENVIROMENT
+
+can nest in many propety files
+@PropertySources({
+        @PropertySource("classpath:testing.properties"),
+        @PropertySource("classpath:encrypted-testing.properties")
+		
+or this way 
+@PropertySource({"classpath:testing.properties", "classpath:encrypted-testing.properties"})
+
+Spring Boot properties
+
+Spring profiles
+
+
+connecting filzille
+host ec2-13-59-97-83.us-east-2.compute.amazonaws.com
+user ec2-user
+
+go to edit setting sftp an add the key
+
+aws putty set up
+https://linuxacademy.com/howtoguides/posts/show/topic/17385-use-putty-to-access-ec2-linux-instances-via-ssh-from-windows
+sudo su
+yum install wget
+Installing java
+java installwget --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u152-b16/aa0333dd3019491ca4f6ddbe78cdb6d0/jdk-8u152-linux-x64.tar.gz
+tar xzf jdk-8u152-linux-x64.tar.gz
+
+Installing java
+cp -r ./jdk1.8.0_152/ /opt/
+alternatives --install /usr/bin/java java /opt/jdk1.8.0_152/bin/java 2
+alternatives --config java
+alternatives --install /usr/bin/jar jar /opt/jdk1.8.0_152/bin/jar 2
+alternatives --config jar
+alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_152/bin/javac 2
+
+[root@ip-172-31-24-249 jdk1.8.0_152]# alternatives  --set jar /opt/jdk1.8.0_152/bin/jar
+[root@ip-172-31-24-249 jdk1.8.0_152]# alternatives  --set javac /opt/jdk1.8.0_152/bin/javac
+
+install jenkins
+sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
+sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+sudo yum install jenkins
+
+starting jenkins
+service jenkins start
+
+apache install
+yum install httpd
+ sevice httpd start
+ 
+ setsebool -P httpd_can_network_connect true
+ su -s /bin/bash jenkins
+
+
+
+
+
+
+
+
+
+

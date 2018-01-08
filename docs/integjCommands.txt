@@ -18,3 +18,4 @@ regsitry and select
 check compiler.automade.allow.when.app.running
 under setting compiler setting need to check build project automatically
 
+Open file in the left side alt+f1
