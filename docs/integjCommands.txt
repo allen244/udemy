@@ -19,3 +19,9 @@ check compiler.automade.allow.when.app.running
 under setting compiler setting need to check build project automatically
 
 Open file in the left side alt+f1
+
+mapstruct plugin- settings-plugins-browser repositories- mapstrcut
+
+http://www.thymeleaf.org/doc/tutorials/2.1/usingthymeleaf.html#booleans
+
+Alsma1206

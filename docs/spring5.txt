@@ -13,6 +13,9 @@ H2 database startup
 http://localhost:8080/h2-console/login.jsp?jsessionid=5da92969c736f315a87146d8eea87658
 jdbc:h2:mem:testdb
 
+configuration h2- http.headers().frameOptions().sameOrigin();
+security.headers.frame=false
+
 github videos
 https://www.youtube.com/watch?v=w3jLJU7DT5E
 
@@ -135,53 +138,60 @@ Spring Boot properties
 
 Spring profiles
 
+Spring rest
+UriComponentsBuilder- buids the rest url
 
-connecting filzille
-host ec2-13-59-97-83.us-east-2.compute.amazonaws.com
-user ec2-user
+http://www.jsonschema2pojo.org/
+https://api.predic8.de/shop/docs#!/categories/getShopCategories
 
-go to edit setting sftp an add the key
+Mapstruct map dto to domain objects
 
-aws putty set up
-https://linuxacademy.com/howtoguides/posts/show/topic/17385-use-putty-to-access-ec2-linux-instances-via-ssh-from-windows
-sudo su
-yum install wget
-Installing java
-java installwget --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u152-b16/aa0333dd3019491ca4f6ddbe78cdb6d0/jdk-8u152-linux-x64.tar.gz
-tar xzf jdk-8u152-linux-x64.tar.gz
+AOP Aspect Programming
+-Allowed developers to add behaviro to code without modifying existing code
+aspect- modularzation of a concern that cuts acress multiple classes
+example loggin module
 
-Installing java
-cp -r ./jdk1.8.0_152/ /opt/
-alternatives --install /usr/bin/java java /opt/jdk1.8.0_152/bin/java 2
-alternatives --config java
-alternatives --install /usr/bin/jar jar /opt/jdk1.8.0_152/bin/jar 2
-alternatives --config jar
-alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_152/bin/javac 2
+join point- a point of execution in program to connect aspect.
 
-[root@ip-172-31-24-249 jdk1.8.0_152]# alternatives  --set jar /opt/jdk1.8.0_152/bin/jar
-[root@ip-172-31-24-249 jdk1.8.0_152]# alternatives  --set javac /opt/jdk1.8.0_152/bin/javac
+advice- action taken by the aspect
+point cut- on or  more joins wehere advi e should be executed
+introduciton- allowed to declared new properties/methods on a target object
 
-install jenkins
-sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
-sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
-sudo yum install jenkins
+Spring two ways to implemetn- xml based and annotations baseed @Aspectj
 
-starting jenkins
-service jenkins start
+Spring Events
+create event
+create publisher
+create handler
 
-apache install
-yum install httpd
- sevice httpd start
- 
- setsebool -P httpd_can_network_connect true
- su -s /bin/bash jenkins
+Task Scheduler- Add this annotations on a config class
+@EnableScheduling
 
+Swagger
+-Create config 
+@EnableSwagger2
+@Configuration
 
+view docs of the api
+http://localhost:8080/v2/api-docs
 
+swagger ui
+http://localhost:8080/swagger-ui.html
 
+configure without spring boot 
 
+extends WebMvcConfigurationSupport
+      @Override
+    protected void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("swagger-ui.html")
+                .addResourceLocations("classpath:/META-INF/resources/");
 
+        registry.addResourceHandler("/webjars/**")
+                .addResourceLocations("classpath:/META-INF/resources/webjars/");
 
+    }
+	
+	https://swagger.io/swagger-editor/
 
 
 
