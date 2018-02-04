@@ -1,4 +1,4 @@
-package avs.practice;
+package avs.practice.algorithms;
 
 
 //Input : mat[][] = 11 2 4

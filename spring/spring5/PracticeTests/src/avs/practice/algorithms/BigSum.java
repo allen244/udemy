@@ -1,4 +1,4 @@
-package avs.practice;
+package avs.practice.algorithms;
 
 import java.util.Scanner;
 
